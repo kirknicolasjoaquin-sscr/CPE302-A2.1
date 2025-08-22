@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kirk Nicolas E. Joaquin – Online Resume</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Montserrat", "Century Gothic", sans-serif;
+        background: #f4f6f9;
+        color: #222;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        min-height: 100vh;
+      }
+
+      .sidebar {
+        background: #1f2937;
+        color: #fff;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sidebar img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #fff;
+        margin-bottom: 20px;
+      }
+      .sidebar h1 {
+        font-size: 22px;
+        margin: 10px 0 5px;
+        text-align: center;
+      }
+      .sidebar h2 {
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0 0 20px;
+        text-align: center;
+        color: #cbd5e1;
+      }
+      .sidebar .contact p {
+        margin: 6px 0;
+        font-size: 13px;
+        text-align: center;
+      }
+      .sidebar a {
+        color: #93c5fd;
+        text-decoration: none;
+      }
+      .sidebar a:hover {
+        text-decoration: underline;
+      }
+
+      .content {
+        background: #fff;
+        padding: 30px;
+      }
+      section {
+        margin-bottom: 24px;
+      }
+      h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #e5e7eb;
+        padding-bottom: 4px;
+      }
+      ul {
+        padding-left: 20px;
+      }
+      li {
+        margin: 4px 0;
+      }
+      .muted {
+        color: #555;
+      }
+
+      @media (max-width: 800px) {
+        .container {
+          grid-template-columns: 1fr;
+        }
+        .sidebar {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <img
+          src="KNJ-profile.jpg"
+          alt="Profile photo of Kirk Nicolas E. Joaquin"
+        />
+        <h1>Kirk Nicolas E. Joaquin</h1>
+        <h2>Computer Engineering Student</h2>
+        <div class="contact">
+          <p>
+            <a href="mailto:s.kirknicolas.joaquin@sscr.edu"
+              >s.kirknicolas.joaquin@sscr.edu</a
+            >
+          </p>
+          <p><a href="tel:+639762319501">+63 976 231 9501</a></p>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section class="about">
+          <h3>About Me</h3>
+          <p>
+            Student of Computer Engineering who enjoys software and frontend
+            development. Gained familiarity with Java and C++ by completing
+            programming courses and developing small web projects using HTML,
+            CSS, and JavaScript. Experienced in mobile and web app development,
+            curious about user-centered design and solving user problems.
+          </p>
+        </section>
+
+        <section class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>Java, C++, HTML/CSS, JavaScript</li>
+            <li>Arduino & MIT App Development</li>
+            <li>Web & Mobile Projects</li>
+            <li>Hardware-Software Integration</li>
+            <li>Problem-Solving</li>
+            <li>Teamwork & Collaboration</li>
+          </ul>
+        </section>
+
+        <section class="education">
+          <h3>Education</h3>
+          <p>
+            <strong>Bachelor of Science in Computer Engineering</strong
+            ><br />San Sebastian Recoletos de Cavite<br /><span class="muted"
+              >2022 – Present</span
+            >
+          </p>
+          <p>
+            <strong>STEM Strand</strong><br />Cavite National High School -
+            Senior High<br /><span class="muted">2020 – 2022</span>
+          </p>
+        </section>
+
+        <section class="academic">
+          <h3>Academic Experience</h3>
+          <ul>
+            <li>
+              Established knowledge and experience in hardware and software
+              through courses and projects.
+            </li>
+            <li>
+              Obtained programming capability in Java, C++, and HTML through
+              OOP, Embedded Systems, and Software Design.
+            </li>
+            <li>
+              Created mobile applications for device control using MIT App
+              Inventor.
+            </li>
+            <li>
+              Developed web-based projects using HTML, CSS, and JavaScript.
+            </li>
+            <li>
+              Implemented hardware-software integration using Arduino, sensors,
+              and microcontrollers.
+            </li>
+            <li>
+              Strengthened skills in debugging, logic, and problem-solving.
+            </li>
+          </ul>
+        </section>
+
+        <section class="awards">
+          <h3>Awards & Recognition</h3>
+          <p>
+            <strong>Dean’s Lister</strong><br />San Sebastian Recoletos de
+            Cavite<br /><span class="muted"
+              >Recognized for academic excellence in selected semesters: 2nd
+              Year and 3rd Year, 2nd Semester.</span
+            >
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
